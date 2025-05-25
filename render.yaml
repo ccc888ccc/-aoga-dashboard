@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: aoga-dashboard
+    env: python
+    buildCommand: ""
+    startCommand: python agoda_dashboard.py
